@@ -1,0 +1,27 @@
+{
+  "name": "ai-email-assistant",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nisargak18/ai-email-assistant.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Nisargak18/ai-email-assistant/issues"
+  },
+  "homepage": "https://github.com/Nisargak18/ai-email-assistant#readme",
+  "dependencies": {
+    "axios": "^1.11.0",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "recharts": "^3.1.2",
+    "tailwindcss": "^4.1.12"
+  }
+}
