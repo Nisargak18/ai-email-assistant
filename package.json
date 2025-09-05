@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite --host --port 5173 --strictPort",
+    "build": "vite build",
+    "preview": "vite preview --host"
   },
   "repository": {
     "type": "git",
@@ -21,7 +23,12 @@
     "axios": "^1.11.0",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
-    "recharts": "^3.1.2",
-    "tailwindcss": "^4.1.12"
+    "react-router-dom": "^6.28.0",
+    "chart.js": "^4.4.7",
+    "react-chartjs-2": "^5.2.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.8"
   }
 }
